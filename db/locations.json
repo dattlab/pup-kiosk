@@ -1,0 +1,122 @@
+[
+  {
+    "id": "main-bldg",
+    "name": "Main Building",
+    "description": "The main campus building where lecture rooms, computer laboratories, and faculty offices are located. The building is divided into North, East, West, and South wings.",
+    "imagePath": "assets/main.jpg"
+  },
+  {
+    "id": "chapel",
+    "name": "Interfaith Chapel",
+    "description": "This is where students, professors and other people come to pray. This is also used as a practice area by dancers and athletes.",
+    "imagePath": "assets/chapel.jpg"
+  },
+  {
+    "id": "oval",
+    "name": "Track and Football Oval",
+    "description": "Nearest location when entering through the East Gate, aside from the Gymnasium, this is also the training grounds of our PUP Mighty Maroons and our fellow isko and iska during practices for events",
+    "imagePath": "assets/oval.jpg"
+  },
+  {
+    "id": "mabini",
+    "name": "Apolinario Mabini Shrine",
+    "description": "The Apolinario Mabini Shrine is a historic site in Santa Mesa, Manila. It is noted for being the residence of Filipino military leader Apolinario Mabini who figured in the Philippine Revolution. Originally situated along the Nagtahan River, the structure was moved to the PUP main campus in the mid-2000s. ",
+    "imagePath": "assets/mabini.JPG"
+  },
+  {
+    "id": "obelisk",
+    "name": "PUP Obelisk",
+    "description": "The Obelisk, standing majestic on its base, depicts the strength of the Polytechnic University of the Philippines as an institution of higher learning, promoting educational and moral aims which are fortified by a determined leadership with a clear vision for the Filipino youth.",
+    "imagePath": "assets/obelisk.jpg"
+  },
+  {
+    "id": "gymnasium",
+    "name": "PUP Gymnasium",
+    "description": "The University Gymnasium serves as the training ground for the student athletes that participate in the intercollegiate sports program.",
+    "imagePath": "assets/gym.jpg"
+  },
+  {
+    "id": "pylon",
+    "name": "Pylon",
+    "description": "The Pylon originally stood for the true, the good and the beautiful. The Triad of pillars may also stand for wisdom, strength and beauty because there should be wisdom to contrive, strength to support and beauty to adorn any great or important undertaking.",
+    "imagePath": "assets/pylon.jpg"
+  },
+  {
+    "id": "mural",
+    "name": "Mural Brass Sculpture",
+    "description": "The sculpture (Cut and welded brass mural relief, 2.5 x 9.3 meters) was built by national artist Eduardo Castrillo in 1974.  The theme of the artwork is Consolidated Growth through Education - the role of PUP in the educational development of the youth in preparation for their involvement in nation building.",
+    "imagePath": "assets/mural.jpg"
+  },
+  {
+    "id": "foodtech",
+    "name": "Nutrition and Food Science Building",
+    "description": "This is where the College of Nutrition and Food Science holds their classes and various laboratory activities.",
+    "imagePath": "assets/foodtech.jpg"
+  },
+  {
+    "id": "amphitheater",
+    "name": "Amphitheater",
+    "description": "A venue, where important events in the university are usually held.",
+    "imagePath": "assets/amphitheater.jpg"
+  },
+  {
+    "id": "lagoon",
+    "name": "Lagoon",
+    "description": "It is a favorite place of the students to hang out during break time and students with no classes.",
+    "imagePath": "assets/lagoon.webp"
+  },
+  {
+    "id": "nallrc",
+    "name": "Ninoy Aquino Library and Learning Resources Center",
+    "description": "The Ninoy Aquino Library and Learning Resources Center (NALLRC) is the library system of the Polytechnic University of the Philippines composed of libraries providing services to the PUP System.",
+    "imagePath": "assets/nallrc.jpg"
+  },
+  {
+    "id": "charlie-bldg",
+    "name": "Charlie del Rosario Hall",
+    "description": "The Charlie del Rosario Building, named after Charlie del Rosario, the first ever Desaparecido during the Marcos era. It is also known as “Unyon,” from its former name, “Unyon ng Mag-aaral Building.” This is where the Office of Student Services is located.",
+    "imagePath": "assets/charlie.jpg"
+  },
+  {
+    "id": "chk-bldg",
+    "name": "College of Human Kinetics (Physical Education Building)",
+    "description": "The College of Human Kinetics (CHK) is gearing towards the attainment of the vision and mission of its fore bearers and present leaders who persist in their views of a tomorrow in physical education, well-being and sports development.",
+    "imagePath": "assets/chk.jpg"
+  },
+  {
+    "id": "alumni-bldg",
+    "name": "Tahanan ng Alumni",
+    "description": "A cherished gathering place where graduates return to reconnect with their alma mater. Here, amidst the echoes of shared memories and the buzz of new beginnings, past and present converge to create a vibrant community. From nostalgic reunions to collaborative ventures, this space fosters enduring connections.",
+    "imagePath": "assets/alumni.jpg"
+  },
+  {
+    "id": "sw-pool",
+    "name": "Swimming Pool",
+    "description": "An olympic-sized swimming pool that is capable of handling several swimming classes and student athlete activities simultaneously.",
+    "imagePath": "assets/swimmingpool.png"
+  },
+  {
+    "id": "linear-park",
+    "name": "Linear Park",
+    "description": "Another hang-out place in the campus, where students are able to rest while on break.",
+    "imagePath": "assets/linearpark.jpg"
+  },
+  {
+    "id": "tennis-court",
+    "name": "Tennis Courts",
+    "description": "Outdoor tennis courts as training grounds for tennis student athletes.",
+    "imagePath": "assets/tenniscourt.jpg"
+  },
+  {
+    "id": "freedom-park",
+    "name": "Freedom Park",
+    "description": "The park that initially greets the students before the Main Building.",
+    "imagePath": "assets/freedompark.jpg"
+  },
+  {
+    "id": "student-canteen",
+    "name": "Student Canteen",
+    "description": "A designated area within the campus where students can relax, socialize, eat, and engage in various recreational activities outside the classroom. It serves as a hub for student life, promoting a sense of community, connection, and well-being among the student population.",
+    "imagePath": "assets/student-canteen.jpg"
+  }
+]

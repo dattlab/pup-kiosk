@@ -5,12 +5,152 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <link rel="stylesheet" href="css/main.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 
     <script defer src="js/index.js"></script>
 
     <title>PUP Kiosk</title>
   </head>
   <body>
-    <main></main>
+    <main>
+
+      <svg id="pup-map" style="width:100%" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 2434 1459">
+        <style>
+          .image-mapper-shape {
+            fill: rgba(78, 150, 6, 0.45);
+          }
+          g:hover .image-mapper-shape {
+            stroke: yellow;
+            stroke-width: 10px;
+            opacity: 50%;
+          }
+        </style>
+        
+        <image xlink:href="assets/pup_map.png" style="width: 2434px;"></image>
+        <a id="chapel" >
+          <g >
+            <polygon class="image-mapper-shape" data-index="1" points="1171.93,1109.52 1134.94,1208.91 1176.55,1303.68 1269.01,1336.04 1370.71,1299.06 1407.7,1199.66 1363.78,1109.52 1273.63,1070.22"></polygon>
+          </g>
+        </a>
+        <a id="main-bldg">
+          <g>
+            <polygon class="image-mapper-shape" data-index="2" points="663.398,795.153 619.48,871.432 640.283,885.301 624.103,910.727 862.186,1058.66 788.218,1102.58 702.693,973.138 587.119,1047.11 762.792,1345.29 878.367,1273.63 820.579,1137.25 892.236,1100.27 901.482,1382.27 929.219,1379.96 926.908,1405.39 1014.74,1405.39 1021.68,1377.65 1047.11,1377.65 1042.48,1095.65 1065.6,1049.42 1305.99,915.35 1292.12,885.301 1319.86,873.744 1264.39,790.53 1248.21,811.333 1238.96,788.218 996.253,931.531 938.465,926.908 700.382,790.53 684.201,809.022"></polygon>
+          </g>
+        </a>
+        <a id="oval">
+          <g>
+            <polygon class="image-mapper-shape" data-index="3" points="1812.21,744.3 1553.32,1104.89 1530.21,1176.55 1534.83,1275.94 1574.13,1352.22 1648.09,1416.94 1722.06,1435.44 1809.9,1437.75 1895.42,1398.45 2177.42,998.564 2200.54,943.088 2193.6,846.006 2152,762.792 2094.21,709.628 1999.44,679.578 1902.36,686.513"></polygon>
+          </g>
+        </a>
+        <a id="mabini">
+          <g>
+            <polygon class="image-mapper-shape" data-index="3" points="1490.91,723.497 1453.93,815.956 1511.72,848.317 1569.5,778.972 1615.73,716.562 1537.14,663.398"></polygon>
+          </g>
+        </a>
+        <a id="obelisk">
+          <g>
+            <circle cx="1407.6980056980058" cy="554.7578347578348" r="53.21451857637361" class="image-mapper-shape" data-index="8"></circle>
+          </g>
+        </a>
+        <a id="gymnasium">
+          <g>
+            <polygon class="image-mapper-shape" data-index="6" points="1666.58,67.0332 1661.96,251.953 1953.21,277.379 1964.77,87.8367"></polygon>
+          </g>
+        </a>
+        <a id="pylon">
+          <g>
+            <polygon class="image-mapper-shape" data-index="7" points="2138.13,501.594 2138.13,566.315 2193.6,559.381 2186.67,501.594"></polygon>
+          </g>
+        </a>
+        <a id="mural">
+          <g>
+            <polygon class="image-mapper-shape" data-index="8" points="2135.82,621.791 2135.82,649.529 2221.34,647.217 2228.28,619.48"></polygon>
+          </g>
+        </a>
+        <a id="foodtech">
+          <g>
+            <polygon class="image-mapper-shape" data-index="9" points="1063.29,1407.7 1067.91,1453.93 1428.5,1453.93 1423.88,1403.08"></polygon>
+          </g>
+        </a>
+        <a id="amphitheater">
+          <g>
+            <polygon class="image-mapper-shape" data-index="10" points="887.613,753.546 940.777,730.431 993.941,737.366 1017.06,774.349 1028.61,813.645 980.072,829.825 922.285,809.022"></polygon>
+          </g>
+        </a>
+        <a id="lagoon">
+          <g>
+            <polygon class="image-mapper-shape" data-index="11" points="878.367,693.447 938.465,681.89 945.4,577.873 980.072,536.266 1051.73,533.954 1054.04,462.298 1060.97,392.953 1104.89,360.593 1155.75,367.527 1192.73,418.38 1192.73,478.479 1134.94,529.331 1132.63,570.938 1091.02,642.594 1047.11,693.447 1005.5,718.874 963.892,730.431 876.055,737.366"></polygon>
+          </g>
+        </a>
+        <a id="nallrc">
+          <g>
+            <polygon class="image-mapper-shape" data-index="12" points="776.661,69.3447 855.252,277.379 825.202,286.625 852.94,349.035 885.301,335.166 945.4,543.2 1049.42,508.528 989.318,323.609 1167.3,265.821 1125.7,154.87 952.334,217.28 885.301,25.4264"></polygon>
+          </g>
+        </a>
+        <a id="charlie-bldg">
+          <g>
+            <polygon class="image-mapper-shape" data-index="13" points="413.757,494.659 677.267,644.906 725.808,568.627 464.61,413.757"></polygon>
+          </g>
+        </a>
+        <a id="chk-bldg">
+          <g>
+            <polygon class="image-mapper-shape" data-index="14" points="1222.78,32.3609 1211.22,351.347 1275.94,351.347 1285.19,36.9839"></polygon>
+          </g>
+        </a>
+        <a id="alumni-bldg">
+          <g>
+            <polygon class="image-mapper-shape" data-index="15" points="1299.06,99.3941 1294.43,203.411 1331.42,208.034 1336.04,104.017"></polygon>
+          </g>
+        </a>
+        <a id="sw-pool">
+          <g>
+            <polygon class="image-mapper-shape" data-index="16" points="1359.16,108.64 1352.22,219.592 1599.55,235.772 1606.49,122.509"></polygon>
+          </g>
+        </a>
+        <a id="linear-park">
+          <g>
+            <polygon class="image-mapper-shape" data-index="17" points="256.576,265.821 284.313,263.51 527.02,1014.74 688.824,1287.5 603.299,1317.55 496.971,1026.3"></polygon>
+          </g>
+        </a>
+        <a id="tennis-court">
+          <g>
+            <polygon class="image-mapper-shape" data-index="1" points="1759.04,328.232 1756.73,464.61 1923.16,469.233 1930.09,337.478"></polygon>
+          </g>
+        </a>
+        <a id="freedom-park">
+          <g>
+            <polygon class="image-mapper-shape" data-index="2" points="1232.02,772.038 1241.27,792.841 1266.7,781.284 1317.55,869.121 1296.75,885.301 1324.48,929.219 1366.09,903.793 1470.11,663.398 1375.34,670.332 1352.22,658.775"></polygon>
+          </g>
+        </a>
+        <a id="student-canteen">
+          <g>
+            <polygon class="image-mapper-shape" data-index="21" points="554.758,677.267 624.103,716.562 658.775,665.709 584.807,628.726"></polygon>
+          </g>
+        </a>
+      </svg>
+
+
+
+      <div class="info-container">
+        <div class="info-container__content-wrapper">
+          <img src="assets/logo.png" alt="PUP Logo" id="pup-logo">
+
+          <div class="info-container__content">
+            <div class="info-container__header">
+              <h1 class="h6-max h8-min page-title">PUP Kiosk</h1>
+            </div>
+
+            <div class="info-container__desc">
+              Navigate through the PUP Manila campus facilities and parks by hovering or clicking each of the landmarks higlighted with green.
+            </div>
+          </div>
+        </div>
+
+        <button class="minimize-btn">
+          <i class='bx bxs-chevrons-left'></i>
+        </button>
+      </div>
+
+  </main>
   </body>
-</html>
+  </html>
